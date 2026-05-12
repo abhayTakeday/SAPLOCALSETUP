@@ -35,14 +35,10 @@ eclipsebin
 **/jalo
 
 # allow only custom extensions
-**/hybris/bin/*
 !**/custom/
 
 # Folders to ignore at the root of the repository
-**/hybris/roles/
-**/hybris/log/
-**/hybris/temp/
-**/hybris/data/
+
 
 # Filename patterns to ignore
 *.class
@@ -59,7 +55,6 @@ ruleset.xml
 *.log
 .pmd
 *build.number
-hybris/config/local.properties
 
 
 base.properties
